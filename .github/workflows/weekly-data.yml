@@ -26,8 +26,8 @@ jobs:
       R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
       R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
     steps:
-      - uses: actions/checkout@v7
-      - uses: astral-sh/setup-uv@v10
+      - uses: actions/checkout@v7.0.1
+      - uses: astral-sh/setup-uv@v10.0.1
         with:
           python-version: "3.12"
           enable-cache: true
@@ -39,7 +39,7 @@ jobs:
       - run: uv run njobs export --format jsonl
       - run: uv run njobs export --format parquet
       - run: uv run njobs export --format duckdb
-      - uses: peter-evans/create-pull-request@v8
+      - uses: peter-evans/create-pull-request@v8.1.1
         with:
           branch: data/weekly-refresh
           base: main
