@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-29T03:59:54.387845Z",
+  "generated_at": "2026-08-29T04:13:05.178281Z",
   "errors": [],
   "warnings": [],
   "metrics": {
     "active_companies": 583,
-    "active_jobs": 1240,
+    "active_jobs": 1237,
     "duplicate_job_fingerprints": 0,
     "company_required_field_completeness": 1.0,
     "job_required_field_completeness": 1.0

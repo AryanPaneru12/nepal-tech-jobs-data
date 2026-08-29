@@ -1,0 +1,9 @@
+run_id,source_id,started_at,finished_at,status,full_snapshot,fetched_count,company_count,job_count,lead_count,failure_count
+7dba449a-088d-5827-aa0d-f89ff7264730,remotive,2026-08-29 09:57:47.343688+05:45,2026-08-29 09:57:49.092178+05:45,completed,true,1,0,17,0,0
+98be96f3-82b4-58ff-a0d9-5ce7b1335a02,remoteok,2026-08-29 09:57:43.148405+05:45,2026-08-29 09:57:47.187207+05:45,completed,true,1,0,21,0,0
+70ff0a94-4e83-565b-a555-b65247617cc2,himalayas,2026-08-29 09:46:16.484196+05:45,2026-08-29 09:57:42.931367+05:45,completed,true,100,0,1199,0,0
+initial-himalayas-2026-08-28,himalayas,2026-08-28 21:41:24.514269+05:45,,running,true,0,0,0,0,0
+repair-remoteok-2026-08-28,remoteok,2026-08-28 21:38:34.334333+05:45,2026-08-28 21:38:37.591583+05:45,completed,true,1,0,22,0,0
+repair-remotive-2026-08-28,remotive,2026-08-28 21:38:31.601889+05:45,2026-08-28 21:38:33.434586+05:45,completed,true,1,0,17,0,0
+initial-remoteok-2026-08-28,remoteok,2026-08-28 21:38:12.897641+05:45,2026-08-28 21:38:16.95363+05:45,completed,true,1,0,22,0,0
+initial-remotive-2026-08-28,remotive,2026-08-28 21:38:10.120028+05:45,2026-08-28 21:38:11.974994+05:45,completed,true,1,0,17,0,0

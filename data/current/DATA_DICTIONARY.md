@@ -15,3 +15,8 @@ are intentionally excluded from public exports.
 
 Record-level provenance with source URL, observation timestamp, short permitted snippet, parser version,
 content hash where available, confidence, and attribution.
+
+## runs
+
+Public ingestion-run summaries used to audit freshness and source failures. Private error details and raw
+storage pointers are excluded.

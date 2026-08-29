@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "generated_at": "2026-08-28T15:54:40.089685+00:00",
+  "generated_at": "2026-08-29T04:13:10.729904+00:00",
   "license": "ODC-BY-1.0 with source-specific restrictions",
   "files": [
     {
@@ -10,63 +10,78 @@
     },
     {
       "path": "companies.csv",
-      "bytes": 8611,
-      "sha256": "444ec3821bf457b9d6bf15355bab4ac61b43e5aca990805bdab9242db06e22d8"
+      "bytes": 158613,
+      "sha256": "92249c813830d88106e026da982eb911a16d3d04c20dea397e6e49546a3f0c49"
     },
     {
       "path": "companies.jsonl",
-      "bytes": 20600,
-      "sha256": "54b53a1f96d704c74ae093794a440d03cb281a133b283767a52e8e05595d68bd"
+      "bytes": 388733,
+      "sha256": "0ecebe3c7ea89b86e5571e50e73ad352eba6a1c8a90ed9622547ef196ed23784"
     },
     {
       "path": "companies.parquet",
-      "bytes": 5732,
-      "sha256": "cd039a54f4e0205c3898311a5955bf673a5dc9ff30ba383a471777ce2ca8e15a"
+      "bytes": 37470,
+      "sha256": "d59a37e7d29adb1d4bf628960b7a421639bcbb572a2f8ea03cff9736093b209f"
     },
     {
       "path": "COVERAGE.md",
-      "bytes": 297,
-      "sha256": "f94cd4eea4bd2cfd2024fc2af74198b1634c36cc542bb68967a9b6da058be9e7"
+      "bytes": 300,
+      "sha256": "d8bca4277498980372fa5ba32bbf1e7f81a097ab268530089686698d1a89a941"
     },
     {
       "path": "DATA_DICTIONARY.md",
-      "bytes": 692,
-      "sha256": "ad669a3a99688ffb02862af7c27ed26beef8ba0433688a1bae7ac3aabf766159"
+      "bytes": 844,
+      "sha256": "746eac23b91afafdbc5f38653e063cd595dbb7e753c19315a39ea66b525d4812"
     },
     {
       "path": "evidence.csv",
-      "bytes": 25105,
-      "sha256": "d7349ae4e45d232a525b8cfbeaaca6ee0973e39ed9ca042fc9641d4fa24fa407"
+      "bytes": 817131,
+      "sha256": "96fd1adab305cbdc7c36725d4a3e0b8b0957aa0bb6dd19ed4e3755c8e0cbec3b"
     },
     {
       "path": "evidence.jsonl",
-      "bytes": 42767,
-      "sha256": "884185857b8b54ff996bc427c7b5b574eb2d9ec5a703538e98cfd87a0df5a175"
+      "bytes": 1384355,
+      "sha256": "a351d18c46c2b57243fef4627bbdfbadbdac751faad17698dda2b9c5751d5746"
     },
     {
       "path": "evidence.parquet",
-      "bytes": 9215,
-      "sha256": "f4403b075657085c21079ba20238570f27fcc3d0e106c54018fe16875109ac82"
+      "bytes": 157653,
+      "sha256": "16aff93539e69adf39fc99ab19c4b6b420c5fb6fa76ec4e782f9bfdd96c0e20b"
     },
     {
       "path": "jobs.csv",
-      "bytes": 31848,
-      "sha256": "6ba0e82ffc9c308d91f12e31c116572658fdd1da5c461cf5d5bde66a06c31e44"
+      "bytes": 1189086,
+      "sha256": "fd7e4272294f0510c11210e3a683da9e2ed7a7ec76331755414b29cf17adf898"
     },
     {
       "path": "jobs.jsonl",
-      "bytes": 57859,
-      "sha256": "5543ba0ae96ce0d0bbd4c07d19dcfa8ca7e0c2b527fe233d67e2c7a07a10a816"
+      "bytes": 2034998,
+      "sha256": "ce94c896af619e7c391a20769bc3bf9c3dde41ab24a5c0ffbb320c29210bca84"
     },
     {
       "path": "jobs.parquet",
-      "bytes": 16756,
-      "sha256": "85aab09b34ce00e76693d5c6334be09f6939bb2726df9f6e1e091af4dd6d243b"
+      "bytes": 213020,
+      "sha256": "7ec020581b07665d7b840c270fc85d778a2c1355266da99208f1d3109eb2bcb2"
     },
     {
       "path": "nepal_jobs_public.duckdb",
-      "bytes": 1060864,
-      "sha256": "f3dd0d53b7683425d28422f9e0af745c6b9612c99676ceb30a7bb011a41596b8"
+      "bytes": 2109440,
+      "sha256": "001f7fb2fe2f83462390ae3a1e8f0698bb100eb6ca68806ef1f709bbf794e8e2"
+    },
+    {
+      "path": "runs.csv",
+      "bytes": 1152,
+      "sha256": "c30ded97017527099c3be6e8cd12473d4d92d298404cc285d6a8518d8e9ab62e"
+    },
+    {
+      "path": "runs.jsonl",
+      "bytes": 2463,
+      "sha256": "7cf31d078dfbdb8c209faf90d6f1ec9fb18096f34cea646e84c537ab4109f755"
+    },
+    {
+      "path": "runs.parquet",
+      "bytes": 2263,
+      "sha256": "dcd2201694b0d06c55e6019a85cd89b115ab9944bfa978471f0f807f5448a5ba"
     },
     {
       "path": "sources.json",
