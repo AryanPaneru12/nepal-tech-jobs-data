@@ -21,7 +21,7 @@ dependencies = [
   "pyyaml>=6.0,<7",
   "rapidfuzz>=3.9,<4",
   "selectolax>=0.3.21,<1",
-  "structlog>=24.4,<26",
+  "structlog>=24.4,<27",
   "typer>=0.12,<1",
   "zstandard>=0.23,<1",
 ]
