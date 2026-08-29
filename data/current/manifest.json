@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-08-28T15:54:40.089685+00:00",
+  "license": "ODC-BY-1.0 with source-specific restrictions",
+  "files": [
+    {
+      "path": "ATTRIBUTION.md",
+      "bytes": 1583,
+      "sha256": "b1d441667ee167d308c728d73e839ef0f67125b78066c94db6e0a40f6257b817"
+    },
+    {
+      "path": "companies.csv",
+      "bytes": 8611,
+      "sha256": "444ec3821bf457b9d6bf15355bab4ac61b43e5aca990805bdab9242db06e22d8"
+    },
+    {
+      "path": "companies.jsonl",
+      "bytes": 20600,
+      "sha256": "54b53a1f96d704c74ae093794a440d03cb281a133b283767a52e8e05595d68bd"
+    },
+    {
+      "path": "companies.parquet",
+      "bytes": 5732,
+      "sha256": "cd039a54f4e0205c3898311a5955bf673a5dc9ff30ba383a471777ce2ca8e15a"
+    },
+    {
+      "path": "COVERAGE.md",
+      "bytes": 297,
+      "sha256": "f94cd4eea4bd2cfd2024fc2af74198b1634c36cc542bb68967a9b6da058be9e7"
+    },
+    {
+      "path": "DATA_DICTIONARY.md",
+      "bytes": 692,
+      "sha256": "ad669a3a99688ffb02862af7c27ed26beef8ba0433688a1bae7ac3aabf766159"
+    },
+    {
+      "path": "evidence.csv",
+      "bytes": 25105,
+      "sha256": "d7349ae4e45d232a525b8cfbeaaca6ee0973e39ed9ca042fc9641d4fa24fa407"
+    },
+    {
+      "path": "evidence.jsonl",
+      "bytes": 42767,
+      "sha256": "884185857b8b54ff996bc427c7b5b574eb2d9ec5a703538e98cfd87a0df5a175"
+    },
+    {
+      "path": "evidence.parquet",
+      "bytes": 9215,
+      "sha256": "f4403b075657085c21079ba20238570f27fcc3d0e106c54018fe16875109ac82"
+    },
+    {
+      "path": "jobs.csv",
+      "bytes": 31848,
+      "sha256": "6ba0e82ffc9c308d91f12e31c116572658fdd1da5c461cf5d5bde66a06c31e44"
+    },
+    {
+      "path": "jobs.jsonl",
+      "bytes": 57859,
+      "sha256": "5543ba0ae96ce0d0bbd4c07d19dcfa8ca7e0c2b527fe233d67e2c7a07a10a816"
+    },
+    {
+      "path": "jobs.parquet",
+      "bytes": 16756,
+      "sha256": "85aab09b34ce00e76693d5c6334be09f6939bb2726df9f6e1e091af4dd6d243b"
+    },
+    {
+      "path": "nepal_jobs_public.duckdb",
+      "bytes": 1060864,
+      "sha256": "f3dd0d53b7683425d28422f9e0af745c6b9612c99676ceb30a7bb011a41596b8"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 8413,
+      "sha256": "2352bfd833e4225b27dad4cae8b8b4c3b318c27c7b91e78f942d2d46515eeaab"
+    }
+  ]
+}

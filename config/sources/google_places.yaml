@@ -1,0 +1,22 @@
+id: google_places
+name: Google Places ID-only discovery
+owner: Google
+kind: company_discovery
+connector: google_places_id
+base_url: https://places.googleapis.com/v1/places:searchText
+terms_url: https://developers.google.com/maps/documentation/places/web-service/policies
+access_mode: search
+enabled: false
+obey_robots: false
+requests_per_minute: 10
+attribution: Google Maps; only durable Place IDs are retained.
+redistribution: restricted
+raw_retention_days: 1
+refresh: manual
+full_snapshot: false
+parameters:
+  queries:
+    - software companies in Kathmandu Nepal
+    - IT companies in Lalitpur Nepal
+    - technology companies in Pokhara Nepal
+

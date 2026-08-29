@@ -1,0 +1,15 @@
+id: nepal_sources_review
+name: Nepal directories and job boards pending source-specific review
+owner: Multiple Nepal public and private publishers
+kind: coverage_inventory
+connector: manual_csv
+access_mode: blocked
+enabled: false
+blocked_reason: CAN, ISPAN, NTA, CNI/FNCCI, DOI PDFs, JobKhoj, Shram Sansar, Merojob, Kumari Job, and JobsNepal each require a dedicated policy review and parser fixture before activation.
+obey_robots: true
+requests_per_minute: 1
+attribution: Source-specific attribution is required before enabling any adapter.
+redistribution: unknown
+raw_retention_days: 0
+refresh: manual
+full_snapshot: false

@@ -1,0 +1,19 @@
+id: greenhouse
+name: Greenhouse public Job Board API
+owner: Greenhouse Software
+kind: ats_jobs
+connector: greenhouse
+base_url: https://boards-api.greenhouse.io/v1/boards
+terms_url: https://docs.greenhouse.io/job-board.html
+access_mode: api
+enabled: false
+obey_robots: false
+requests_per_minute: 30
+attribution: First-party employer posting served by Greenhouse.
+redistribution: facts_only
+raw_retention_days: 90
+refresh: weekly
+full_snapshot: true
+parameters:
+  boards: []
+

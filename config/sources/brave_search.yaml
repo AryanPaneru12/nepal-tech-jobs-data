@@ -1,0 +1,24 @@
+id: brave_search
+name: Brave Web Search discovery
+owner: Brave Software
+kind: company_discovery
+connector: brave_search
+base_url: https://api.search.brave.com/res/v1/web/search
+terms_url: https://api-dashboard.search.brave.com/terms-of-service
+access_mode: search
+enabled: false
+obey_robots: false
+requests_per_minute: 10
+attribution: Brave Search is used for discovery; every company requires independent verification.
+redistribution: facts_only
+raw_retention_days: 7
+refresh: weekly
+full_snapshot: false
+parameters:
+  queries:
+    - software company Nepal careers
+    - AI company Nepal jobs
+    - cybersecurity company Nepal careers
+    - fintech Nepal software jobs
+    - सूचना प्रविधि कम्पनी नेपाल रोजगारी
+

@@ -1,0 +1,26 @@
+id: nasit
+name: NAS-IT member directory
+owner: Nepal Association for Software and IT Services Companies
+kind: company_directory
+connector: html_directory
+base_url: https://nasit.org.np/members/
+terms_url: https://nasit.org.np/
+access_mode: html
+enabled: false
+blocked_reason: Parser selectors and redistribution policy require a maintainer review before activation.
+obey_robots: true
+requests_per_minute: 6
+attribution: Nepal Association for Software and IT Services Companies (NAS-IT).
+redistribution: facts_only
+raw_retention_days: 90
+refresh: weekly
+full_snapshot: true
+parameters:
+  item_selector: article
+  name_selector: h4
+  website_selector: a
+  profile_selector: p
+  sectors:
+    - software
+    - it_services
+

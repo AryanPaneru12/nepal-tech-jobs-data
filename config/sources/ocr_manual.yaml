@@ -1,0 +1,19 @@
+id: ocr_manual
+name: Nepal Office of Company Registrar manual export
+owner: Office of Company Registrar, Government of Nepal
+kind: company_registry
+connector: manual_csv
+base_url: https://company.ocr.gov.np/company-register
+terms_url: https://ocr.gov.np/
+access_mode: manual
+enabled: false
+obey_robots: true
+requests_per_minute: 1
+attribution: Office of Company Registrar, Government of Nepal.
+redistribution: facts_only
+raw_retention_days: 90
+refresh: manual
+full_snapshot: true
+parameters:
+  path: data/imports/ocr_companies.csv
+

@@ -1,0 +1,19 @@
+id: ashby
+name: Ashby public Job Postings API
+owner: Ashby
+kind: ats_jobs
+connector: ashby
+base_url: https://api.ashbyhq.com/posting-api/job-board
+terms_url: https://developers.ashbyhq.com/docs/public-job-posting-api
+access_mode: api
+enabled: false
+obey_robots: false
+requests_per_minute: 30
+attribution: First-party employer posting served by Ashby.
+redistribution: facts_only
+raw_retention_days: 90
+refresh: weekly
+full_snapshot: true
+parameters:
+  boards: []
+

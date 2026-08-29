@@ -1,0 +1,16 @@
+[
+  {"legal": "Fixture only"},
+  {
+    "id": "101",
+    "position": "Junior Python Engineer",
+    "company": "Example Labs",
+    "location": "Worldwide",
+    "description": "Build APIs with Python. 1-2 years experience.",
+    "url": "https://remoteok.example/jobs/101",
+    "apply_url": "https://example.com/careers/101?utm_source=test",
+    "tags": ["python", "backend"],
+    "date": "2026-08-20T10:00:00Z",
+    "salary": "$40k-$60k/year"
+  }
+]
+

@@ -1,0 +1,37 @@
+name: Source request
+description: Propose a lawful public company or job source for review.
+title: "source: "
+labels: [source-review]
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Source name and URL
+    validations:
+      required: true
+  - type: input
+    id: terms
+    attributes:
+      label: Terms or API documentation URL
+    validations:
+      required: true
+  - type: dropdown
+    id: access
+    attributes:
+      label: Access mode
+      options: [Public API, Public feed, Public HTML, Manual public export, Unknown]
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Nepal relevance and expected coverage
+    validations:
+      required: true
+  - type: textarea
+    id: restrictions
+    attributes:
+      label: Attribution, retention, and redistribution restrictions
+      description: Summarize known requirements; write unknown where review is still needed.
+    validations:
+      required: true

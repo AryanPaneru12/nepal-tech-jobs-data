@@ -1,0 +1,5 @@
+* text=auto eol=lf
+
+*.duckdb binary
+*.parquet binary
+data/current/* linguist-generated=true

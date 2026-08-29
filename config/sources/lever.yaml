@@ -1,0 +1,19 @@
+id: lever
+name: Lever public Postings API
+owner: Lever
+kind: ats_jobs
+connector: lever
+base_url: https://api.lever.co/v0/postings
+terms_url: https://github.com/lever/postings-api
+access_mode: api
+enabled: false
+obey_robots: false
+requests_per_minute: 30
+attribution: First-party employer posting served by Lever.
+redistribution: facts_only
+raw_retention_days: 90
+refresh: weekly
+full_snapshot: true
+parameters:
+  boards: []
+

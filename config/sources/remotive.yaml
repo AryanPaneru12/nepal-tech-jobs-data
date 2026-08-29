@@ -1,0 +1,17 @@
+id: remotive
+name: Remotive public jobs API
+owner: Remotive
+kind: remote_jobs
+connector: remotive
+base_url: https://remotive.com/api/remote-jobs
+terms_url: https://github.com/remotive-io/remote-jobs-api
+access_mode: api
+enabled: true
+obey_robots: false
+requests_per_minute: 2
+attribution: Remotive — link back to the Remotive listing; feed is delayed by 24 hours.
+redistribution: attributed
+raw_retention_days: 30
+refresh: weekly
+full_snapshot: true
+

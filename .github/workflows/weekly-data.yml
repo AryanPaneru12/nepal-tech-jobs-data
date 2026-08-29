@@ -1,0 +1,52 @@
+name: Weekly data refresh
+
+on:
+  schedule:
+    - cron: "23 2 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: weekly-data-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      NJOBS_CONTACT_EMAIL: ${{ secrets.NJOBS_CONTACT_EMAIL }}
+      NJOBS_USER_AGENT: NepalJobsData/0.1 (+${{ github.server_url }}/${{ github.repository }})
+      BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
+      GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
+      R2_ENDPOINT_URL: ${{ secrets.R2_ENDPOINT_URL }}
+      R2_BUCKET: ${{ secrets.R2_BUCKET }}
+      R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+          enable-cache: true
+      - run: uv sync
+      - run: uv run njobs run weekly --resume
+      - run: uv run njobs validate
+      - run: uv run njobs review export
+      - run: uv run njobs export --format csv
+      - run: uv run njobs export --format jsonl
+      - run: uv run njobs export --format parquet
+      - run: uv run njobs export --format duckdb
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: data/weekly-refresh
+          base: main
+          delete-branch: true
+          commit-message: "data: weekly source refresh"
+          title: "data: weekly source refresh"
+          body: |
+            Automated weekly refresh. Review coverage, validation, closures, source failures,
+            duplicate candidates, and `data/reports/review_queue.jsonl` before merging.
+          labels: data-update

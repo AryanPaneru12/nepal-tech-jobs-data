@@ -1,0 +1,19 @@
+id: himalayas
+name: Himalayas remote jobs API
+owner: Himalayas
+kind: remote_jobs
+connector: himalayas
+base_url: https://himalayas.app/jobs/api
+terms_url: https://himalayas.app/api
+access_mode: api
+enabled: true
+obey_robots: false
+requests_per_minute: 10
+attribution: Himalayas — mention Himalayas and link to the source listing.
+redistribution: attributed
+raw_retention_days: 30
+refresh: weekly
+full_snapshot: true
+parameters:
+  max_pages: 100
+

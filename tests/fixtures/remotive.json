@@ -1,0 +1,18 @@
+{
+  "job-count": 1,
+  "jobs": [
+    {
+      "id": 202,
+      "url": "https://remotive.example/jobs/202",
+      "title": "Remote QA Engineer",
+      "company_name": "Quality Works",
+      "category": "QA",
+      "job_type": "full_time",
+      "publication_date": "2026-08-21T12:00:00Z",
+      "candidate_required_location": "Asia",
+      "salary": "USD 30000-45000 per year",
+      "description": "Test web applications using Playwright."
+    }
+  ]
+}
+

@@ -1,0 +1,17 @@
+id: remoteok
+name: Remote OK public jobs feed
+owner: Remote OK
+kind: remote_jobs
+connector: remoteok
+base_url: https://remoteok.com/api
+terms_url: https://remoteok.com/legal
+access_mode: api
+enabled: true
+obey_robots: false
+requests_per_minute: 2
+attribution: Remote OK — link to the original Remote OK job page.
+redistribution: attributed
+raw_retention_days: 30
+refresh: weekly
+full_snapshot: true
+
